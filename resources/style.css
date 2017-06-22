@@ -18,12 +18,21 @@ header .logo{
  justify-content: space-around;
  }
 
+
  header .logo span {
    margin-left: 10px;
  }
 
 
-
 nav span a{
   color: black;
+}
+
+
+.content {
+  border: 1px black solid;
+}
+
+ div {
+  border: 1px black solid;
 }
