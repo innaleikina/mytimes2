@@ -4,7 +4,8 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  overflow: scroll;
+
+
 
 }
 
@@ -16,6 +17,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  margin-right: 20px;
 }
 
 
@@ -42,7 +44,6 @@ nav span a{
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  overflow: scroll;
   position: relative;
 
 }
@@ -165,4 +166,68 @@ body{
 
 footer {
   display:flex;
+  height: 150px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width:100%;
+  margin-top: 50px;
+  justify-content: center;
+  align-content: center;
+  padding-top: 80px;
+  padding-left: 150px;
+}
+
+
+
+.footerlinks span a{
+  margin-left: 20px;
+  justify-content: space-around;
+  color: black;
+
+}
+
+
+footer nav {
+  display: flex;
+  
+  margin-right: 15px;
+}
+
+footer nav span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer nav span a {
+  color: black;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  margin-top: 70px;
+  flex-grow: 1;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
 }
