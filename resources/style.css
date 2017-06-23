@@ -166,7 +166,7 @@ body{
 
 footer {
   display:flex;
-  height: 150px;
+  height: 80px;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -191,7 +191,6 @@ footer {
 
 footer nav {
   display: flex;
-  
   margin-right: 15px;
 }
 
