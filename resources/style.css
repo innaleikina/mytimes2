@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-content: flex-start;
 
 
 
@@ -45,6 +46,7 @@ nav span a{
   justify-content: center;
   margin-top: 30px;
   position: relative;
+
 
 }
 
@@ -89,6 +91,14 @@ body{
   height: 300px;
 }
 
+.mother,.tuna span {
+  padding-top: 90px;
+  padding-left: 30px;
+  text-align: center;
+
+
+}
+
 .earth{
   background-image: url(./images/img-story-2.png);
   font-family: Georgia;
@@ -98,9 +108,17 @@ body{
   display: flex;
   background-size: cover;
   height: 280px;
-
-
 }
+
+  div.earth span {
+    padding-top: 90px;
+    padding-left: 30px;
+    text-align: center;
+
+  }
+
+
+
 
 .cameras {
   background-image: url(./images/img-story-3.png);
@@ -113,6 +131,13 @@ body{
   background-size: cover;
 }
 
+div.cameras span {
+  padding-top: 90px;
+  padding-left: 10px;
+  text-align: center;
+
+}
+
 .cats {
   background-image: url(./images/img-story-1.png);
   font-family: Georgia;
@@ -122,9 +147,16 @@ body{
   display: flex;
   height: 280px;
   background-size: cover;
-
-
 }
+
+  div.cats span {
+    padding-top: 90px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+
+
 
 .article {
   display: flex;
